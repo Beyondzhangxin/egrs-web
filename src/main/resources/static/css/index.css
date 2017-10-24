@@ -1,0 +1,275 @@
+﻿*{
+  list-style: none;margin: 0px;padding: 0px;
+}
+.login{
+
+}
+html,body,.login,.left,.right{
+    height: 100%;
+}
+.red{color:#f00;}
+input{vertical-align: middle;}
+
+/*首页开始*/
+/*row开始*/
+.row{
+    width: 80%;
+    margin:0 auto;
+    border-bottom:1px solid #dadada;
+    font-family: 'simsun';
+    font-size: 12px;
+    padding: 25px 0px;
+    margin-bottom: 25px;
+}
+    .ziti01{
+        font-size: 34px;
+        font-family: 'Microsoft YaHei';
+    }
+.content{
+    width: 100%;
+    margin:0 auto;
+}
+    /*下载列表开始*/
+    .download{
+        border:2px solid #dadada;
+        border-bottom:2px solid #ff0;
+        width: 35%;
+    }
+    .dl-top{
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 1px solid #dadada;
+        padding: 0 20px;
+        font-family: 'simhei';
+        font-weight: 500;
+        color: #333;
+        font-size: 16px;
+    }
+    .dl-con{
+        padding: 20px;
+
+    }
+    .dl-con a{
+        color: #666;
+        font-size: 12px;
+        font-family: 'simsun';
+    }
+    .dl-con li{
+        height: 44px;
+        line-height: 44px;
+        border-bottom:1px solid #dadada;
+        padding-left: 10px;
+        position: relative;
+    }
+    .dl-con li:nth-child(5n+1){
+        border-left: 2px solid #5bc0de;
+    }
+    .dl-con li:nth-child(5n+2){
+        border-left: 2px solid #f0ad4e;
+    }
+    .dl-con li:nth-child(5n+3){
+        border-left: 2px solid #5cb85c;
+    }
+    .dl-con li:nth-child(5n+4){
+        border-left: 2px solid #d9534f;
+    }
+    .dl-con li:nth-child(5n+5){
+        border-left: 2px solid #5cb85c;
+    }
+    .dl-con span{
+        color: #fff;
+        border-radius: 3px;
+        padding:2px;
+        position: absolute;
+        right: 0;
+        top: 12px;
+        line-height: 16px;
+    }
+    .dl-con li:nth-child(5n+1) span{
+        background: #5bc0de;
+    }
+    .dl-con li:nth-child(5n+2) span{
+        background: #f0ad4e;
+    }
+    .dl-con li:nth-child(5n+3) span{
+        background: #5cb85c;
+    }
+    .dl-con li:nth-child(5n+4) span{
+        background: #d9534f;
+    }
+    .dl-con li:nth-child(5n+5) span{
+        background: #5cb85c;
+    }
+    /*下载列表结束*/
+
+    /*新加功能开始*/
+    .addlist{
+        border:2px solid #dadada;
+        border-bottom:2px solid #5cb85c;
+        width: 60%;
+        padding-bottom: 108px;
+    }
+    .add-con{
+        border-left: 1px solid #dadada;
+        padding: 0 20px;
+        margin: 20px 20px 20px 30px;
+        font-family: 'simsun';
+        font-size: 12px;
+
+    }
+    .add-title{
+        padding-bottom:10px;
+        color: #333;
+    }
+    .add-title span{
+        padding:2px;
+        border-radius: 3px;
+        margin-left: 10px;
+        color: #fff;
+    }
+    .add-title span:nth-child(2n+1){
+        background: #5bc0de;
+    }
+    .add-con li{
+        margin-left: 10px;
+        padding: 10px;
+        border:1px solid #dadada;
+        position: relative;
+        margin-top: 20px;
+    }
+    .add-con li:nth-child(2n+1) span{
+        background: #5bc0de;
+    }
+
+    .add-con p{
+        color:#666;
+    }
+    .add-time{
+        background: #f2f2f2;
+        line-height: 38px;
+        height: 38px;
+        margin-top: 10px;
+        text-indent: 10px;
+    }
+    .circle{
+        left: -50px;
+        top: 0;
+        position: absolute;
+
+    }
+    .add-con li:nth-child(2n+1) .circle{
+        background: #f38733 url(../images/icon/car.png) no-repeat center center;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    .add-con li:nth-child(2n+2) .circle{
+        background: #5bc0de url(../images/icon/car.png) no-repeat center center;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    .triangle{
+        left: -9px;
+        top: 13px;
+        position: absolute;
+
+    }
+    /*分页开始*/
+    .page{
+        padding-top: 30px;
+    }
+    .page a{
+        padding: 5px 8px;
+        /*border:1px solid #9c3;*/
+        background: #5cb85c;
+        color: #fff;
+        font-family: 'simsun';
+        font-size: 12px;
+    }
+    
+  /* slider-hello开始 */
+ .slider-hello{
+    width: 880px;
+    margin:0 auto;
+}
+.slider-hello ul li{
+    float: left;
+    width: 216px;
+    height: 216px;
+    margin: 27px 27px 0px;
+    /* background: #f0f2f5; */
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    /* border: 1px solid #f00; */
+    box-shadow: #666 0px 0px 10px;
+    border-radius: 10px;
+}
+.slider-hello ul li:hover{
+    background: #e2ebff;
+}
+.slider-hello ul li a{
+    display: block;
+    width: 216px;
+    height: 216px;
+    vertical-align: middle;
+    color: #5b6572;
+    line-height: 32px;
+    font-size: 18px;
+}
+.slider-hello ul li a img{
+    vertical-align: middle;
+    margin: 60px 0px 10px;
+}
+.item-hello{
+	width: 1000px;
+    margin: 0px auto;
+    color: #5b6572;
+    line-height: 30px;
+  	padding: 60px 0px;
+}
+	.item-hello .item-left{
+		width: 50%;
+	}
+	.item-hello .item-right{
+		width: 50%;
+	}
+	.item-hello a{
+		color: #5b6572;
+	}
+	.item-hello a span{}
+#notice{
+		border-bottom:1px solid #ccc;
+}
+	#notice .item-right{
+		text-align: center;
+	}
+	#notice .item-right img{
+		vertical-align: middle;
+	}
+#change{
+		border-bottom:1px solid #ccc;
+}	
+	#change .item-left{
+		text-align: center;
+	}
+	#change .item-left img{
+		vertical-align: middle;
+		margin-top: 60px;
+	}
+#manual{
+		border-bottom:1px solid #ccc;
+}
+	#manual .item-left{
+		text-align: center;
+		padding-top: 50px;
+	}
+	#manual .item-right{
+		text-align: center;
+	}
+	#manual .item-right img{
+		vertical-align: middle;
+	}    
+    
+

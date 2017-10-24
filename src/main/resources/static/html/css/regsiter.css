@@ -1,0 +1,141 @@
+﻿*{
+  list-style: none;margin: 0px;padding: 0px;
+}
+html,body,.login,.left,.right{
+    height: 100%;
+}
+*{
+  list-style: none;margin: 0px;padding: 0px;
+}
+html,body,.login,.left,.right{
+    height: 100%;
+}
+.red{color:#f00;}
+.f{ float: left;}
+input{vertical-align: middle;}
+.header{
+    height: 116px;
+    line-height: 116px;
+}
+.head{
+    width: 80%;
+    margin:0 auto;
+    background: url(../images/logo.png) left center no-repeat;
+    text-indent:100px;
+    font-family: Microsoft YaHei;
+    font-size: 36px;
+    color:#666;
+}
+.content{
+    /* height: 200px;
+    background: #3366ff; */
+}
+.footer{
+    height: 200px;
+}
+.foot{
+    width: 80%;
+    margin:0 auto;
+    font-family: Simsun;
+    font-size: 12px;
+    color:#333;
+    padding: 70px 0px 30px;
+}
+    .foot-f{
+        width: 70%;
+    }
+.mf20{
+    margin-left: 20px;
+}
+.mr20{
+    margin-right: 20px;
+}
+.content{
+    width: 70%;
+    margin: 0 auto;
+}
+    .con-row{}
+    .con-row ul li{
+        float: left;
+        /*border-bottom:1px solid #ccc;*/
+        width: 33%;
+        line-height: 60px;
+        text-align: center;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    .con-row ul li span{
+        position: absolute;
+        bottom: -18px;
+        height: 16px;
+        line-height: 1;
+        padding: 10px;
+        border-radius: 50%;
+        left: 46%;
+        color: #fff;
+    }
+    .main{
+        box-shadow: 0 0 20px #888888;
+        padding: 30px 5%;
+        color: #666;
+        font-size: 12px;
+        width: 85%;
+        margin: 30px auto;
+    }
+    input[type=text]{
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+    input[type=button]{
+        width: 80%;
+        height: 40px;
+        line-height: 40px;
+        margin:0 auto;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        background: #36f;
+        color: #fff;
+    }
+    .main table{
+        width: 100%;
+    }
+    .main td{
+        padding: 10px 0px;
+    }
+    .main td:nth-child(2n+1){
+        text-align: right;
+        padding-right:10px;
+    }
+
+    .main td:nth-child(2n+2){
+        text-align: left;
+        text-indent: 5px;
+    }
+    .line{
+        border-top:1px solid #ccc;
+    }
+    .button-all{
+        width: 80%;
+        margin:30px auto;
+        text-align: center;
+        border-radius: 3px;
+    }
+    .prefect-info{}
+    .prefect-info td:nth-child(2n+1){
+        text-align: left;
+        text-indent: 15px;
+        color: #333;
+    }
+    .prefect-info td:nth-child(2n+2) label{
+        margin-right: 40px;
+        color: #666;
+    }
+    .success{
+        text-align: center;
+        padding: 50px 0;
+        font-size: 18px;
+        color: #666;
+    }

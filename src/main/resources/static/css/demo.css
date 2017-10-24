@@ -1,0 +1,15 @@
+﻿#top{
+  width: 80%;
+  border:1px solid #f0f0f0;
+  padding: 20px;
+  margin:0 auto;
+}
+hgroup{
+  font-weight: bold;
+}
+progress{
+  color:#f00;
+}
+summary{
+  outline: none;
+}

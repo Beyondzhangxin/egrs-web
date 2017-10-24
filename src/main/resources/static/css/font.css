@@ -1,0 +1,389 @@
+@font-face {
+  font-family: 'env';
+  src:  url('fonts/env.eot?a0brhf');
+  src:  url('fonts/env.eot?a0brhf#iefix') format('embedded-opentype'),
+    url('fonts/env.ttf?a0brhf') format('truetype'),
+    url('fonts/env.woff?a0brhf') format('woff'),
+    url('fonts/env.svg?a0brhf#env') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'env' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-appendix-DC-converter:before {
+  content: "\e940";
+  color: #717b8c;
+}
+.icon-appendix-IUPR-plan:before {
+  content: "\e941";
+  color: #717b8c;
+}
+.icon-appendix-IUPR-statement:before {
+  content: "\e942";
+  color: #717b8c;
+}
+.icon-appendix-OBD-version:before {
+  content: "\e943";
+  color: #717b8c;
+}
+.icon-appendix-OBD-file:before {
+  content: "\e944";
+  color: #717b8c;
+}
+.icon--appendix-energy-management-system:before {
+  content: "\e945";
+  color: #717b8c;
+}
+.icon-appendix-energy-storage-device:before {
+  content: "\e946";
+  color: #717b8c;
+}
+.icon-appendix-carve-content:before {
+  content: "\e947";
+  color: #717b8c;
+}
+.icon-appendix-ignition-device:before {
+  content: "\e948";
+  color: #717b8c;
+}
+.icon-appendix-electric-machinery:before {
+  content: "\e949";
+  color: #717b8c;
+}
+.icon-appendix-motor-control:before {
+  content: "\e94a";
+  color: #717b8c;
+}
+.icon-appendix-electronic-vacuum-pump:before {
+  content: "\e94b";
+  color: #717b8c;
+}
+.icon-appendix-electronic-power-steering-device:before {
+  content: "\e94c";
+  color: #717b8c;
+}
+.icon-appendix-power-control:before {
+  content: "\e94d";
+  color: #717b8c;
+}
+.icon-appendix-soundproof-material:before {
+  content: "\e94e";
+  color: #717b8c;
+}
+.icon-appendix-oil-cooling:before {
+  content: "\e94f";
+  color: #717b8c;
+}
+.icon-appendix-air-conditioner:before {
+  content: "\e950";
+  color: #717b8c;
+}
+.icon-appendix-endurance-test-reference-vehicle:before {
+  content: "\e951";
+  color: #717b8c;
+}
+.icon-Emission-equipment:before {
+  content: "\e952";
+  color: #717b8c;
+}
+.icon-appendix-exhaust-gas-recirculation-equipment:before {
+  content: "\e953";
+  color: #717b8c;
+}
+.icon-appendix-crankcase-device:before {
+  content: "\e954";
+  color: #717b8c;
+}
+.icon-appendix-lubricant:before {
+  content: "\e955";
+  color: #717b8c;
+}
+.icon-appendix-lubricating-oil:before {
+  content: "\e956";
+  color: #717b8c;
+}
+.icon-appendix-lubricating-oil-pump:before {
+  content: "\e957";
+  color: #717b8c;
+}
+.icon-appenix-vaporative-emission-control-file:before {
+  content: "\e958";
+  color: #717b8c;
+}
+.icon-appendix-allowable-temperature:before {
+  content: "\e959";
+  color: #717b8c;
+}
+.icon-appendix-special-recovery-system:before {
+  content: "\e95a";
+  color: #717b8c;
+}
+.icon-appendix-intake-muffl:before {
+  content: "\e93c";
+  color: #7a7a7a;
+}
+.icon-appendix-air-clean:before {
+  content: "\e93d";
+  color: #7a7a7a;
+}
+.icon-appendix-press-device:before {
+  content: "\e93e";
+  color: #7a7a7a;
+}
+.icon-appendix-inter-cooler:before {
+  content: "\e93f";
+  color: #717b8c;
+}
+.icon-appendix-air-cool:before {
+  content: "\e93a";
+  color: #717b8c;
+}
+.icon-appendix-liquid-cool:before {
+  content: "\e93b";
+  color: #7a7a7a;
+}
+.icon-appendix-ignition-container:before {
+  content: "\e937";
+  color: #717b8c;
+}
+.icon-appendix-ignition-co-il:before {
+  content: "\e938";
+  color: #7a7a7a;
+}
+.icon-appendix-spark-plug:before {
+  content: "\e939";
+  color: #7a7a7a;
+}
+.icon-grant:before {
+  content: "\e935";
+  color: #3d74eb;
+}
+.icon-non-grant:before {
+  content: "\e936";
+  color: #3d74eb;
+}
+.icon-view:before {
+  content: "\e901";
+  color: #5a9dff;
+}
+.icon-appendix:before {
+  content: "\e902";
+  color: #55efff;
+}
+.icon-auth:before {
+  content: "\e934";
+  color: #555eff;
+}
+.icon-audit:before {
+  content: "\e933";
+  color: #516ae5;
+}
+.icon-compliance-year:before {
+  content: "\e92e";
+  color: #717b8c;
+}
+.icon-compliance-company:before {
+  content: "\e92f";
+  color: #717b8c;
+}
+.icon-compliance-obd:before {
+  content: "\e930";
+  color: #717b8c;
+}
+.icon-compliance-non-obd:before {
+  content: "\e931";
+  color: #717b8c;
+}
+.icon-compliance-self:before {
+  content: "\e932";
+  color: #717b8c;
+}
+.icon-quarter-purchase:before {
+  content: "\e92a";
+  color: #717b8c;
+}
+.icon-quarter-company-type:before {
+  content: "\e92b";
+  color: #717b8c;
+}
+.icon-quarter-month-production:before {
+  content: "\e92c";
+  color: #717b8c;
+}
+.icon-quarter-emission-test:before {
+  content: "\e92d";
+  color: #717b8c;
+}
+.icon-year-car-publish:before {
+  content: "\e926";
+  color: #717b8c;
+}
+.icon-year-engine:before {
+  content: "\e927";
+  color: #717b8c;
+}
+.icon-year-company-type:before {
+  content: "\e928";
+  color: #717b8c;
+}
+.icon-year-publish-type:before {
+  content: "\e929";
+  color: #717b8c;
+}
+.icon-appendix-ecu:before {
+  content: "\e913";
+  color: #717b8c;
+}
+.icon-appendix-obd:before {
+  content: "\e914";
+  color: #717b8c;
+}
+.icon-appendix-catalytic-converter:before {
+  content: "\e915";
+  color: #717b8c;
+}
+.icon-appendix-ignitor:before {
+  content: "\e916";
+  color: #717b8c;
+}
+.icon-appendix-summary:before {
+  content: "\e917";
+  color: #717b8c;
+}
+.icon-appendix-oil-pump:before {
+  content: "\e918";
+  color: #717b8c;
+}
+.icon-appendix-hybrid-engine:before {
+  content: "\e919";
+  color: #717b8c;
+}
+.icon-appendix-intake:before {
+  content: "\e91a";
+  color: #717b8c;
+}
+.icon-appendix-air-injection:before {
+  content: "\e91b";
+  color: #717b8c;
+}
+.icon-appendix-cooling:before {
+  content: "\e91c";
+  color: #717b8c;
+}
+.icon-appendix-exhaust:before {
+  content: "\e91d";
+  color: #717b8c;
+}
+.icon-appendix-egr:before {
+  content: "\e91e";
+}
+.icon-appendix-vecs:before {
+  content: "\e91f";
+  color: #717b8c;
+}
+.icon-appendix-valve-timing:before {
+  content: "\e920";
+  color: #717b8c;
+}
+.icon-appendix-fuel-injection:before {
+  content: "\e921";
+  color: #717b8c;
+}
+.icon-appendix-lubrication:before {
+  content: "\e922";
+  color: #717b8c;
+}
+.icon-appendix-pollution-control:before {
+  content: "\e923";
+  color: #717b8c;
+}
+.icon-appendix-oxygen:before {
+  content: "\e924";
+  color: #717b8c;
+}
+.icon-appendix-evap:before {
+  content: "\e925";
+  color: #717b8c;
+}
+.icon-car:before {
+  content: "\e90d";
+  color: #717b8c;
+}
+.icon-train:before {
+  content: "\e90e";
+  color: #717b8c;
+}
+.icon-power:before {
+  content: "\e90f";
+  color: #717b8c;
+}
+.icon-summary:before {
+  content: "\e910";
+  color: #717b8c;
+}
+.icon-suspension:before {
+  content: "\e911";
+  color: #717b8c;
+}
+.icon-features:before {
+  content: "\e912";
+  color: #717b8c;
+}
+.icon-remark:before {
+  content: "\e900";
+  color: #42eaa2;
+}
+.icon-send:before {
+  content: "\e903";
+  color: #4bd963;
+}
+.icon-delete:before {
+  content: "\e904";
+  color: #ff9400;
+}
+.icon-audit-fail:before {
+  content: "\e905";
+  color: #ff9400;
+}
+.icon-audit-success:before {
+  content: "\e906";
+  color: #4bd963;
+}
+.icon-submit:before {
+  content: "\e907";
+  color: #037bff;
+}
+.icon-fill:before {
+  content: "\e908";
+  color: #3d74eb;
+}
+.icon-non-select:before {
+  content: "\e909";
+  color: #717b8c;
+}
+.icon-download:before {
+  content: "\e90a";
+  color: #3d74eb;
+}
+.icon-edit:before {
+  content: "\e90b";
+  color: #3d74eb;
+}
+.icon-select:before {
+  content: "\e90c";
+  color: #717b8c;
+}

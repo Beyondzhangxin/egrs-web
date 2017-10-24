@@ -1,0 +1,223 @@
+﻿* {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	font-family: Microsoft YaHei;
+}
+
+html, body, .login, .left, .right {
+	height: 100%;
+}
+
+body {
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 100%;
+	height: 100%;
+}
+
+html {
+	min-width: 1000px;
+	min-height: 700px;
+}
+
+.red {
+	color: #f00;
+}
+
+.f {
+	float: left;
+}
+
+input {
+	vertical-align: middle;
+}
+
+.header {
+	line-height: 126px;
+	/* background: #3d74eb; */
+	background: #5c90fe;
+	position: absolute;
+	top: 0;
+	height: 126px;
+	width: 100%;
+}
+
+.head {
+	text-indent: 66px;
+	font-family: Microsoft YaHei;
+	font-size: 36px;
+	color: #fff;
+	text-align: left;
+	margin: 0 auto;
+	width: 800px;
+	height: 100%;
+	background-image: url(../images/logo01.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.content {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	width: 100%;
+	top: 126px;
+	bottom: 144px;
+}
+
+.shadow {
+	width: 100%;
+	/*background-color: #000;
+	opacity: 0.4; 
+	filter: alpha(opacity = 40);
+	opacity: 0; 
+	filter: alpha(opacity = 0);*/
+	
+	_position: absolute;
+	overflow: hidden;
+	_filter: progid:DXImageTransform.Microsoft.gradient(enabled='true',
+		startColorstr='#000', endColorstr='#000');
+	height: 100%;
+	position: absolute;
+}
+
+.login-bg {
+	margin: 0 auto;
+	background-color: #fff;
+	opacity: 0.4;
+	filter: alpha(opacity = 40);
+	width: 538px;
+	height: 390px;
+	border-radius: 6px;
+	position: absolute;
+    left: 50%;
+    margin-left: -269px;
+    top: 50%;
+    margin-top: -195px;
+}
+
+.login {
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 6px;
+	line-height: 30px;
+	width: 502px;
+	height: 354px;
+	position: absolute;
+    left: 50%;
+    margin-left: -251px;
+    top: 50%;
+    margin-top: -177px;
+}
+
+.login form{
+	padding: 10px;
+	text-align: center;
+}
+
+.title {
+	height: 44px;
+	line-height: 44px;
+	background: #5c90fe;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px 6px 0px 0px;
+	font-size: 18px;
+}
+
+.login form input[type=text] {
+	height: 30px;
+	line-height: 30px;
+	width: 280px;
+	margin: 26px auto 0 auto;
+}
+
+.login form input[type=password] {
+	height: 30px;
+	line-height: 30px;
+	width: 280px;
+	margin: 26px auto 0 auto;
+}
+
+.remember {
+	height: 18px;
+    width: 284px;
+    margin: 0 auto;
+    font-size: 11px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.error {
+	line-height: 18px;
+    height: 18px;
+    width: 284px;
+    margin: 0 auto;
+    font-size: 11px;
+    text-align: left;
+}
+.orange{
+	color: #ff6000;
+}
+
+.remember label {
+}
+
+.remember a {
+	float: right;
+}
+
+.login form input[type=submit]{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	color: #fff;
+	background: #5c90fe;
+	border: none;
+	font-size: 16px;
+	width: 284px;
+}
+
+.footer {
+	/* background: #3d74eb; */
+	background: #5c90fe;
+	position: absolute;
+	bottom: 0;
+	height: 144px;
+	width: 100%;
+}
+
+.foot-l {
+	width: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.foot-r {
+	width: 50%;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.foot-l .foot-txt {
+	float: right;
+	margin-right: 123px;
+}
+
+.foot-r .foot-txt {
+	float: left;
+	margin-left: 123px;
+}
+
+.foot-txt {
+	line-height: 22px;
+	font-size: 12px;
+	color: #fff;
+	margin-top: 28px;
+}

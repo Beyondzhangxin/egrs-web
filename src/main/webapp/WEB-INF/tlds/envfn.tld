@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+  version="2.0">
+    
+  <description>JSTL 1.1 functions library</description>
+  <display-name>JSTL functions sys</display-name>
+  <tlib-version>1.1</tlib-version>
+  <short-name>envfn</short-name>
+  <uri>http://www.aiidc.com.cn/tags/functions</uri>
+
+  <function>
+    <description>获取对象参数信息</description>
+    <name>getMetroMessage</name>
+    <function-class>com.aiidc.env.ergs.common.metro.MetroUtil</function-class>
+    <function-signature>com.aiidc.env.ergs.common.metro.MetroMessage[] getMetroMessage(java.lang.Object)</function-signature>
+    <example>${envfn:getMetroMessage(clazz)}</example>  
+  </function>
+  <function>
+    <description>获取对象ID</description>
+    <name>idValue</name>
+    <function-class>com.aiidc.env.ergs.common.metro.MetroUtil</function-class>
+    <function-signature>java.lang.Object getIdValue(java.lang.Object)</function-signature>
+    <example>${envfn:idValue(item)}</example>  
+  </function>
+  <function>
+    <description>获取对象ID字段名</description>
+    <name>idField</name>
+    <function-class>com.aiidc.env.ergs.common.metro.MetroUtil</function-class>
+    <function-signature>java.lang.String getIdField(java.lang.Object)</function-signature>
+    <example>${envfn:idField(item)}</example>  
+  </function>
+  <function>
+    <description>获取对象字段选项数据</description>
+    <name>getFieldData</name>
+    <function-class>com.aiidc.env.ergs.common.metro.MetroUtil</function-class>
+    <function-signature>java.util.List getFieldData(com.aiidc.env.ergs.common.metro.MetroMessage)</function-signature>
+    <example>${envfn:getFieldData(message)}</example>  
+  </function>
+</taglib>
